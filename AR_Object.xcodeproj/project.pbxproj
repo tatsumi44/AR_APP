@@ -14,6 +14,8 @@
 		B91F2D0620AFC2E8001C4B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91F2D0520AFC2E8001C4B7D /* Assets.xcassets */; };
 		B91F2D0920AFC2E8001C4B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91F2D0720AFC2E8001C4B7D /* LaunchScreen.storyboard */; };
 		B91F2D1120AFC927001C4B7D /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B91F2D1020AFC927001C4B7D /* earth.jpg */; };
+		B9EEE5F120B8325B00159CCB /* 2k_jupiter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9EEE5F020B8325B00159CCB /* 2k_jupiter.jpg */; };
+		B9EEE5F320B8328200159CCB /* moon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9EEE5F220B8328200159CCB /* moon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B91F2D0820AFC2E8001C4B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B91F2D0A20AFC2E8001C4B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B91F2D1020AFC927001C4B7D /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		B9EEE5F020B8325B00159CCB /* 2k_jupiter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2k_jupiter.jpg; sourceTree = "<group>"; };
+		B9EEE5F220B8328200159CCB /* moon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moon.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		B91F2CFB20AFC2E6001C4B7D /* AR_Object */ = {
 			isa = PBXGroup;
 			children = (
+				B9EEE5F020B8325B00159CCB /* 2k_jupiter.jpg */,
+				B9EEE5F220B8328200159CCB /* moon.jpg */,
 				B91F2D1020AFC927001C4B7D /* earth.jpg */,
 				B91F2CFC20AFC2E6001C4B7D /* AppDelegate.swift */,
 				B91F2CFE20AFC2E6001C4B7D /* art.scnassets */,
@@ -130,6 +136,8 @@
 			files = (
 				B91F2CFF20AFC2E6001C4B7D /* art.scnassets in Resources */,
 				B91F2D1120AFC927001C4B7D /* earth.jpg in Resources */,
+				B9EEE5F320B8328200159CCB /* moon.jpg in Resources */,
+				B9EEE5F120B8325B00159CCB /* 2k_jupiter.jpg in Resources */,
 				B91F2D0920AFC2E8001C4B7D /* LaunchScreen.storyboard in Resources */,
 				B91F2D0620AFC2E8001C4B7D /* Assets.xcassets in Resources */,
 				B91F2D0420AFC2E6001C4B7D /* Main.storyboard in Resources */,

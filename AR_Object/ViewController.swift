@@ -30,8 +30,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         material.diffuse.contents = UIImage(named: "earth.jpg")
 //        box.materials = [material]
 //        let boxNode = SCNNode(geometry: box)
-//        boxNode.position = SCNVector3(0,0,-1)
-//
+//        boxNode.position = SCNVector3(0,1,-1)
+
 //        scene.rootNode.addChildNode(boxNode)
         // Set the scene to the view
         
@@ -41,6 +41,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sphereNode.position = SCNVector3(0,0,-1)
         sphereNode.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 4)))
         scene.rootNode.addChildNode(sphereNode)
+        
+        let sphere1 = SCNSphere(radius: 0.05)
+        let material1 = SCNMaterial()
+        material1.diffuse.contents = UIImage(named: "moon.jpg")
+        sphere1.materials = [material1]
+        let sphere1Node = SCNNode(geometry: sphere1)
+        sphere1Node.position = SCNVector3(0.01,0,-1)
+        sphere1Node.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 4)))
+        sphereNode.addChildNode(sphere1Node)
         
         sceneView.scene = scene
     }
